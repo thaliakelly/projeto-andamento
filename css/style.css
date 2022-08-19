@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu{
+    display: flex;
+    padding: 15px;
+    
+}
+.menu .logo{
+    font-size: 25px;
+    color: rgb(135, 204, 32);
+    cursor: pointer;
+}
+.menu .logo samp{
+    color: rgb(235, 235, 74);
+    
+}
+.menu nav{
+    margin-left: 50%;
+
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin-left: 20px;
+}
+.menu ul li a{
+    font-size: 15px;
+    color: black;
+    
+}
+.menu ul li a:hover{
+    padding: 5px;
+    border-radius: 5px;
+    background:rgb(100, 148, 29) ;
+    color: white ;
+    transition: all 0.7s;
+   
+}
+
+.header img{
+    position: relative;
+}
+.header{
+    position: relative;
+}
+.header .text-header{
+   position: absolute; 
+   left: 10px;
+   bottom: 30%;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/*main*/
+.servisos{
+    position: relative;
+}
+.servisos img{
+    position: relative;
+    left: 34%;
+}
+.servisos h3{
+    left: 40%;
+    bottom: 100px;
+    position: absolute;
+}
+.servisos p{
+    text-align: center;
+    bottom: 50px;
+    position: absolute;
+}
+
+
+.sobre{
+    text-align: center;
+    background: rgba(231, 231, 231, 0.418);
+}
+.sobre h2{
+    padding: 15px;
+}
+.sobre p{
+    padding: 15px;
+}
+
+
+.depoimentos{
+    display: flex;
+
+}
+.depoimentos .pessoa{
+    margin: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.depoimentos .pessoa img{
+    width: 280px;
+    height: 280px;
+}
+.depoimentos .pessoa p{
+    font-size: 15px;
+}
+
+footer{
+    background-color: rgb(58, 58, 58);
+    padding: 30px;
+    text-align: center;
+}
+footer p{
+    color: white;
+}
