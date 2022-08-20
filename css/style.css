@@ -146,9 +146,17 @@
 
 footer{
     background-color: rgb(58, 58, 58);
-    padding: 30px;
+    padding: 20px;
     text-align: center;
 }
 footer p{
     color: white;
+}
+
+
+/*Responsivel*/
+@media(max-width:920px){
+    .menu ul {
+        margin-right: 40%;
+    }
 }
