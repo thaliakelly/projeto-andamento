@@ -11,13 +11,14 @@
 
 .menu{
     display: flex;
-    padding: 15px;
+    padding: 10px;
     
 }
 .menu .logo{
     font-size: 25px;
     color: rgb(135, 204, 32);
     cursor: pointer;
+    margin-left: 4%;
 }
 .menu .logo samp{
     color: rgb(235, 235, 74);
@@ -25,6 +26,7 @@
 }
 .menu nav{
     margin-left: 50%;
+    margin-top: 1%;
 
 }
 .menu ul{
@@ -49,16 +51,36 @@
 
 .header img{
     position: relative;
+    
+
 }
 .header{
     position: relative;
 }
 .header .text-header{
    position: absolute; 
-   left: 10px;
+   left: 31%;
    bottom: 30%;
-   justify-content: center;
-   align-items: center;
+   text-align: center;
+}
+.header .text-header h1{
+    margin-bottom: 30px;
+}
+.header .text-header p{
+    margin-bottom: 30px;
+}
+.header .text-header a{
+    cursor: pointer;
+    background-color: rgb(122, 180, 36);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 6px;
+    
+}
+.header .text-header a:hover{
+    background-color: greenyellow;
+    color: rgb(47, 71, 11);
+    transition: all 0.7s;
 }
 
 
@@ -79,37 +101,48 @@
     text-align: center;
     bottom: 50px;
     position: absolute;
+    margin-left: 10%;
 }
 
 
 .sobre{
     text-align: center;
+    padding: 10px;
     background: rgba(231, 231, 231, 0.418);
 }
 .sobre h2{
+    margin-top: 3%;
     padding: 15px;
+    
 }
 .sobre p{
+    
     padding: 15px;
+    text-align: justify;
+    margin: 30px;
 }
 
 
 .depoimentos{
     display: flex;
-
-}
-.depoimentos .pessoa{
-    margin: 60px;
-    justify-content: center;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 48px;
 }
-.depoimentos .pessoa img{
-    width: 280px;
-    height: 280px;
+.depoimentos .pessoa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px;
+}
+.depoimentos .pessoa h3{
+    padding: ;
 }
 .depoimentos .pessoa p{
-    font-size: 15px;
+    text-align: justify;
 }
+
 
 footer{
     background-color: rgb(58, 58, 58);
